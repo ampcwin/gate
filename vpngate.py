@@ -47,11 +47,11 @@ REPO_DIR = os.path.dirname(os.path.abspath(__file__))
 SCHEMA_VERSION = 1
 
 # VPN Gate 没有 HTTPS 接口，官方 API 只提供 HTTP。
-DEFAULT_VPNGATE_API = "https://cf.090227.xyz/ct?ips=6&port=443"
+DEFAULT_VPNGATE_API = "http://www.vpngate.net/api/iphone/"
 DEFAULT_VPNGATE_MIRROR = (
     "https://raw.githubusercontent.com/fdciabdul/Vpngate-Scraper-API/main/json/data.json"
 )
-DEFAULT_OPTIMAL_API = ""
+DEFAULT_OPTIMAL_API = "https://cf.090227.xyz/ct?ips=6&port=443"
 
 # 占位符检测：命中任意一个就认为用户还没配置
 PLACEHOLDER_MARKERS = ("你的", "YOUR_", "YOUR-", "example.com", "yourdomain")
