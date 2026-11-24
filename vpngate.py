@@ -62,6 +62,7 @@ DEFAULT_EDGE_HOSTS = [
     "saas.sin.fan:443",
     "www.mfyx.cn:443",
     "cf.nyanya.moe:443",
+    "kr.william.us.ci:443",
     "cf.877774.xyz:443",
     "cdn.204910.best:443",
     "cdn.ctn32.us.kg:443",
